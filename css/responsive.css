@@ -1,0 +1,60 @@
+@media (max-width: 620px) {
+  .pro_section {
+    padding: 5%;
+  }
+  .product > p {
+    line-height: 1rem;
+    font-size: small;
+  }
+  .main_container,
+  .pro_section,
+  .testimonials,
+  .contact_section,
+  .topnav {
+    width: 90%;
+  }
+  .text {
+    font-size: smaller;
+  }
+  .intro {
+    font-size: 1.5rem;
+  }
+  .desc {
+    line-height: normal;
+  }
+}
+
+@media (max-width: 900px) {
+  .home_item > section {
+    width: 90%;
+  }
+}
+
+@media (max-width: 420px) {
+  .product {
+    width: 49%;
+    margin-bottom: 6%;
+  }
+  .product > p {
+    font-size: smaller;
+  }
+  .card {
+    width: 100%;
+  }
+  .home_item,
+  .images_item {
+    width: 100%;
+  }
+
+  .home_item > section {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10%;
+  }
+}
+
+@media (max-width: 200px) {
+  .contact_section {
+    height: 100%;
+  }
+}
